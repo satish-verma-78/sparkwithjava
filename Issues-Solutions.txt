@@ -1,0 +1,7 @@
+java.io.IOException: Could not locate executable null\bin\winutils.exe in the Hadoop binaries.
+http://teknosrc.com/spark-error-java-io-ioexception-could-not-locate-executable-null-bin-winutils-exe-hadoop-binaries/
+ Copy the downloaded file to ANY_DIRECTORY/bin/winutils.exe
+ System.setProperty("hadoop.home.dir", "ANY_DIRECTORY");
+        // Example
+        // winutils.exe is copied to C:\winutil\bin\
+        // System.setProperty("hadoop.home.dir", "C:\\winutil\\");

@@ -14,7 +14,6 @@ public class Application {
 	public static void main(String[] args) {
 		Logger.getLogger("org").setLevel(Level.ERROR);
 		Logger.getLogger("akka").setLevel(Level.ERROR);
-		System.setProperty("hadoop.home.dir", "E:\\Code-SKV\\GitHub\\Apache-Spark");
 		SparkSession sparkSession=SparkSession.builder()
 				.appName("Join 2 Data Sets")
 				.master("local")
